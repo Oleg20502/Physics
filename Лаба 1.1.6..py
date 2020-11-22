@@ -106,9 +106,6 @@ plt.grid()
 plt.show()
 
 
-# In[55]:
-
-
 f2 = np.array([142, 565, 1070, 1525, 2633, 3363, 3840, 4619, 5269])
 flg2 = np.round(np.log10(f2), 3)
 print(flg2)
@@ -123,17 +120,11 @@ dfi2[:5] = dfi1[:5]
 dfi2[5:] = 3.14 - dfi1[5:]
 print(dfi2)
 
-
-# In[70]:
-
-
 plt.plot(flg2, dfi2, 'og')
 plt.plot(flg2, dfi2)
 plt.grid()
 plt.show()
 
-
-# In[ ]:
 
 
 
