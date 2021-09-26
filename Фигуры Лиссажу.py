@@ -1,25 +1,11 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
+#%%
 
 
 import numpy as np
 import matplotlib.pyplot as plt
 
 
-# In[2]:
-
-
-t = np.arange(-2.5, 2, 0.01)
-X = t**3+2*t**2 + t
-Y = -t**3 + 3*t -2
-plt.plot(X, Y)
-plt.show()
-
-
-# In[16]:
-
+#%%
 
 Ax = 2
 Ay = 2
@@ -35,8 +21,8 @@ plt.plot(X, Y)
 plt.show()
 
 
-# In[ ]:
-
-
-
+plt.hist(X)
+plt.show()
+plt.hist(Y)
+plt.show()
 
